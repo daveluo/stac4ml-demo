@@ -1,0 +1,32 @@
+{
+    "type": "Feature",
+    "bbox": [39.34076385802325,-5.8787240929819875,39.36245747748141,-5.851553948160209],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[
+        [39.34076385802325,-5.8787240929819875],
+        [39.36245747748141,-5.8787240929819875],
+        [39.36245747748141,-5.851553948160209],
+        [39.34076385802325,-5.851553948160209],
+        [39.34076385802325,-5.8787240929819875]
+      ]]
+    },
+    "id": "znz029",
+    "properties": {
+      "collection": "imagery",
+      "datetime": "2016-10-04T00:00:00Z"
+    },
+    "assets": {
+      "thumbnail": {
+        "title": "Thumbnail",
+        "href": "https://oin-hotosm.s3.amazonaws.com/5ae242fd0b093000130afd38/0/5ae242fd0b093000130afd39.png",
+        "type": "image/png"
+      },
+      "rgb": {
+        "title": "RGB (primary)",
+        "href": "https://oin-hotosm.s3.amazonaws.com/5ae242fd0b093000130afd38/0/5ae242fd0b093000130afd39.tif",
+        "type": "image/vnd.stac.geotiff; cloud-optimized=true"
+      }
+    },
+    "links": []
+}
