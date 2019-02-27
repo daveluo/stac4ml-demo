@@ -1,1 +1,24 @@
-{"id": "training", "stac_version": "0.6.0", "description": "ml training collection", "links": [{"rel": "self", "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/training/catalog.json"}, {"rel": "root", "href": "../catalog.json"}, {"rel": "parent", "href": "../catalog.json"}, {"rel": "item", "href": "znz029.json"}]}
+{
+  "id": "training",
+  "stac_version": "0.6.0",
+  "title": "ML training data collection",	
+  "description": "ml training collection",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/training/catalog.json"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "item",
+      "href": "znz029.json"
+    }
+  ]
+}

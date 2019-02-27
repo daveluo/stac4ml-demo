@@ -1,1 +1,20 @@
-{"id": "stac-znz", "stac_version": "0.6.0", "description": "demo of training and model output data for zanzibar", "links": [{"rel": "self", "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/catalog.json"}, {"rel": "root", "href": "catalog.json"}, {"rel": "child", "href": "training/catalog.json"}]}
+{
+  "id": "stac-znz",
+  "stac_version": "0.6.0",
+  "title": "ML input and output data catalog",
+  "description": "demo of training and model output data for zanzibar",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/catalog.json"
+    },
+    {
+      "rel": "root",
+      "href": "catalog.json"
+    },
+    {
+      "rel": "child",
+      "href": "training/catalog.json"
+    }
+  ]
+}
