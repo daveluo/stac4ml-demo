@@ -5,7 +5,7 @@
   "links": [
     {
       "rel": "self",
-      "href": "https://github.com/daveluo/stac4ml-demo/training/catalog.json"
+      "href": "catalog.json"
     },
     {
       "rel": "root",

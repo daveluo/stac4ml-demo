@@ -5,7 +5,7 @@
   "links": [
     {
       "rel": "self",
-      "href": "https://github.com/daveluo/stac4ml-demo/catalog.json"
+      "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/catalog.json"
     },
     {
       "rel": "root",
