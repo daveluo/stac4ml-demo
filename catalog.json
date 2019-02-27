@@ -15,6 +15,10 @@
     {
       "rel": "child",
       "href": "training/catalog.json"
+    },
+    {
+      "rel": "child",
+      "href": "output/catalog.json"
     }
   ]
 }

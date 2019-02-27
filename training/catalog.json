@@ -1,7 +1,7 @@
 {
   "id": "buildings",
   "stac_version": "0.6.0",
-  "title": "ML training data collection",	
+  "title": "Zanzibar buildings training data collection",	
   "description": "ml training collection",
   "keywords": ["ml", "open", "resilience"],
 

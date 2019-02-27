@@ -1,0 +1,40 @@
+{
+  "id": "outputs",
+  "stac_version": "0.6.0",
+  "title": "Zanzibar buildings ML outputs collection",	
+  "description": "ml outputs collection",
+  "keywords": ["ml", "open", "resilience"],
+
+  "license": "CC-BY-4.0",
+
+  "providers": [
+    {
+      "name": "ML model maker",
+      "roles": ["producer", "licensor"],
+      "url": ""
+    }
+  ],
+  // "extent": {
+  //   "spatial": [39.28649574607279,-5.74306084165896,39.36245747748141,-5.851553948160209],
+  //   "temporal": ["2016-08-28T00:00:00Z", "2016-10-04T00:00:00Z"]
+  // },
+
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/outputs/catalog.json"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "item",
+      "href": "job0001-item.json"
+    }
+  ]
+}
