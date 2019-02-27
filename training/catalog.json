@@ -20,7 +20,7 @@
     },
     {
       "name": "Zanzibar Mapping Initiative",
-      "roles": ["producer", "licensor"],
+      "roles": ["producer"],
       "url": "http://www.zanzibarmapping.com/"
     },
     {
@@ -39,7 +39,7 @@
     "spatial": [39.34076385802325,-5.8787240929819875,39.36245747748141,-5.851553948160209],
     "temporal": ["2017-08-15T06:47:50Z", "2017-09-15T06:47:50Z"]
   },
-  
+
   "links": [
     {
       "rel": "self",
