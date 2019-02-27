@@ -1,0 +1,1 @@
+{"id": "training", "description": "ml training collection", "links": [{"rel": "self", "href": "https://github.com/daveluo/stac4ml-demo/training/catalog.json"}, {"rel": "root", "href": "../catalog.json"}, {"rel": "parent", "href": "../catalog.json"}, {"rel": "item", "href": "znz029.json"}]}
