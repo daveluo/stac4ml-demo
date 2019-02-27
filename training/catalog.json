@@ -3,6 +3,42 @@
   "stac_version": "0.6.0",
   "title": "ML training data collection",	
   "description": "ml training collection",
+  "keywords": ["ml", "open", "resilience"],
+
+  "license": "CC-BY-4.0",
+
+  "providers": [
+    {
+      "name": "Commission for Lands, Revolutionary Govt of Zanzibar",
+      "roles": ["producer", "licensor"],
+      "url": ""
+    },
+    {
+      "name": "SUZA",
+      "roles": ["producer"],
+      "url": ""
+    },
+    {
+      "name": "Zanzibar Mapping Initiative",
+      "roles": ["producer", "licensor"],
+      "url": "http://www.zanzibarmapping.com/"
+    },
+    {
+      "name": "WeRobotics",
+      "roles": ["producer"],
+      "url": "https://werobotics.org"
+    },
+    {
+      "name": "OpenDRI",
+      "roles": ["supporter"],
+      "url": "https://opendri.org/project/zanzibar/"
+    },
+  ],
+
+  "extent": {
+    "spatial": [39.34076385802325,-5.8787240929819875,39.36245747748141,-5.851553948160209],
+    "temporal": ["2017-08-15T06:47:50Z", "2017-09-15T06:47:50Z"]
+  },
   "links": [
     {
       "rel": "self",
