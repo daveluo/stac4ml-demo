@@ -1,0 +1,63 @@
+{
+  "type": "Feature",
+  "bbox": [
+    39.28649574607279,
+    -5.74306084165896,
+    39.31360343875191,
+    -5.718602960453871
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [39.28649574607279,-5.74306084165896],
+      [39.31360343875191,-5.74306084165896],
+      [39.31360343875191,-5.718602960453871],
+      [39.28649574607279,-5.718602960453871],
+      [39.28649574607279,-5.74306084165896]
+    ]]
+  }, 
+  "id": "znz001",
+  "properties": {
+    "collection": "buildings",
+      "datetime": "2015-04-13T08:18:08Z",
+      "td:title": "Zanzibar grid_001 buildings",
+      "td:description": "Buildings manually drawn using UAV 7cm imagery",
+      "td:label_type": "segmentation",
+      "td:classes": ["building"]
+  },
+  "assets": {
+    "thumbnail": {
+      "title": "Thumbnail",
+      "href": "https://oin-hotosm.s3.amazonaws.com/5b1009f22b6a08001185f214/0/5b1009f22b6a08001185f215.png",
+      "type": "image/png"
+    },
+    "labels": {
+      "title": "Labels",
+      "href": "https://gist.github.com/daveluo/c743c6b0f99795336636a1b0084786b5",
+      "type": "application/geo+json"
+    },
+    "rgb": {
+        "title": "RGB (primary)",
+        "href": "https://oin-hotosm.s3.amazonaws.com/5b1009f22b6a08001185f214/0/5b1009f22b6a08001185f215.tif",
+        "type": "image/vnd.stac.geotiff; cloud-optimized=true"
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/training/znz001.json"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json"
+    },
+    {
+      "rel": "collection",
+      "href": "catalog.json"
+    }
+  ]
+}
