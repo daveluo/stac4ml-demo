@@ -10,12 +10,12 @@
   "providers": [
     {
       "name": "Commission for Lands, Revolutionary Govt of Zanzibar",
-      "roles": ["producer", "licensor"],
+      "roles": ["producer", "licensor"]
       // "url": ""
     },
     {
       "name": "SUZA",
-      "roles": ["producer"],
+      "roles": ["producer"]
       // "url": ""
     },
     {
