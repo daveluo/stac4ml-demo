@@ -11,12 +11,12 @@
     {
       "name": "Commission for Lands, Revolutionary Govt of Zanzibar",
       "roles": ["producer", "licensor"],
-      "url": ""
+      // "url": ""
     },
     {
       "name": "SUZA",
       "roles": ["producer"],
-      "url": ""
+      // "url": ""
     },
     {
       "name": "Zanzibar Mapping Initiative",
