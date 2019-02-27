@@ -9,9 +9,9 @@
 
   "providers": [
     {
-      "name": "some ML model maker",
+      "name": "Dave",
       "roles": ["producer", "licensor"],
-      "url": "http://my.url.com"
+      "url": "https://github.com/daveluo/stac4ml-demo"
     }
   ],
   "extent": {

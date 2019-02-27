@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "id": "znz029-outputs-building-job1234",
+  "id": "job0001",
   "crs": {
     "type": "name",
     "properties": {
@@ -64604,7 +64604,7 @@
   "links": [
     {
       "rel": "item",
-      "href": "znz029-buildings.json"
+      "href": "job0001-item.json"
     }
   ]
 }

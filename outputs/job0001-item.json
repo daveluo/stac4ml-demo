@@ -45,26 +45,26 @@
     ]
   },
   "assets": {
-    "source": {
-        "title": "UAV source imagery (RGB)",
-        "href": "https://oin-hotosm.s3.amazonaws.com/5ae242fd0b093000130afd38/0/5ae242fd0b093000130afd39.tif",
+    "raster": {
+        "title": "Raster output",
+        "href": "job0001.tif",
         "type": "image/vnd.stac.geotiff; cloud-optimized=true"
     },
     "vector": {
       "title": "Building polygons",
-      "href": "job0001.json",
+      "href": "https://gist.github.com/daveluo/96310ed5f9c21b90d9ea2f19db64402c",
       "type": "application/geo+json"
     },
-    "raster": {
-        "title": "Raster output",
-        "href": "job0001.tif",
+    "source": {
+        "title": "UAV source imagery (RGB)",
+        "href": "https://oin-hotosm.s3.amazonaws.com/5ae242fd0b093000130afd38/0/5ae242fd0b093000130afd39.tif",
         "type": "image/vnd.stac.geotiff; cloud-optimized=true"
     }
   },
   "links": [
     {
       "rel": "self",
-      "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/training/znz029.json"
+      "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/outputs/job0001-item.json"
     },
     {
       "rel": "root",
