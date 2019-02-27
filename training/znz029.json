@@ -33,10 +33,10 @@
       ]
     ]
   },
-  "id": "znz029",
+  "id": "znz029-buildings",
   "properties": {
     "collection": "buildings",
-    "datetime": "2017-08-15T06:47:50Z",
+    "datetime": "2016-10-04T00:00:00Z",
     "td:title": "Zanzibar grid 029 buildings",
     "td:description": "Buildings manually drawn using UAV 7cm imagery",
     "td:label_type": "segmentation",
@@ -51,12 +51,12 @@
       "type": "image/png"
     },
     "labels": {
-      "title": "Labels",
+      "title": "Building labels",
       "href": "https://gist.github.com/daveluo/0073003131bb54edeb72cbd7b1787228",
       "type": "application/geo+json"
     },
     "rgb": {
-        "title": "RGB (primary)",
+        "title": "UAV source imagery (RGB)",
         "href": "https://oin-hotosm.s3.amazonaws.com/5ae242fd0b093000130afd38/0/5ae242fd0b093000130afd39.tif",
         "type": "image/vnd.stac.geotiff; cloud-optimized=true"
     }

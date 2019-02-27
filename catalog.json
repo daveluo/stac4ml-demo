@@ -1,8 +1,8 @@
 {
-  "id": "stac-znz",
+  "id": "stac4ml-demo",
   "stac_version": "0.6.0",
   "title": "ML input and output data catalog",
-  "description": "demo of training and model output data for zanzibar",
+  "description": "demo of ML training and model output data STAC catalogs",
   "links": [
     {
       "rel": "self",
