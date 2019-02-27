@@ -9,15 +9,15 @@
 
   "providers": [
     {
-      "name": "ML model maker",
+      "name": "some ML model maker",
       "roles": ["producer", "licensor"],
-      "url": ""
+      "url": "http://my.url.com"
     }
   ],
-  // "extent": {
-  //   "spatial": [39.28649574607279,-5.74306084165896,39.36245747748141,-5.851553948160209],
-  //   "temporal": ["2016-08-28T00:00:00Z", "2016-10-04T00:00:00Z"]
-  // },
+  "extent": {
+    "spatial": [39.34076385802325, -5.8787240929819875, 39.36245747748141, -5.851553948160209],
+    "temporal": ["2016-10-04T00:00:00Z", null]
+  },
 
   "links": [
     {
