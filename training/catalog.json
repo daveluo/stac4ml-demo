@@ -52,14 +52,6 @@
     {
       "rel": "parent",
       "href": "../catalog.json"
-    },
-    {
-      "rel": "item",
-      "href": "znz029.json"
-    },
-    {
-      "rel": "item",
-      "href": "znz001.json"
     }
   ]
 }
