@@ -10,13 +10,13 @@
   "providers": [
     {
       "name": "Commission for Lands, Revolutionary Govt of Zanzibar",
-      "roles": ["producer", "licensor"]
-      // "url": ""
+      "roles": ["producer", "licensor"],
+      "url": "https://www.zanzibar.go.tz/index.php?rgo=ministries"
     },
     {
       "name": "SUZA",
-      "roles": ["producer"]
-      // "url": ""
+      "roles": ["producer"],
+      "url": "https://www.suza.ac.tz/"
     },
     {
       "name": "Zanzibar Mapping Initiative",
