@@ -16,25 +16,16 @@
       [39.28649574607279,-5.74306084165896]
     ]]
   }, 
-  "id": "znz001-buildings",
+  "id": "znz001-imagery",
   "properties": {
-    "collection": "buildings",
-      "datetime": "2016-08-28T00:00:00Z",
-      "td:title": "Zanzibar grid_001 buildings",
-      "td:description": "Buildings manually drawn using UAV 7cm imagery",
-      "td:label_type": "segmentation",
-      "td:classes": ["building"]
+    "collection": "imagery",
+      "datetime": "20 16-08-28T00:00:00Z"
   },
   "assets": {
     "thumbnail": {
       "title": "Thumbnail",
       "href": "https://oin-hotosm.s3.amazonaws.com/5b1009f22b6a08001185f214/0/5b1009f22b6a08001185f215.png",
       "type": "image/png"
-    },
-    "labels": {
-      "title": "Building labels",
-      "href": "https://gist.github.com/daveluo/c743c6b0f99795336636a1b0084786b5",
-      "type": "application/geo+json"
     },
     "rgb": {
         "title": "UAV source imagery (RGB)",
@@ -43,23 +34,6 @@
     }
   },
   "links": [
-    {
-      "rel": "self",
-      "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/training/znz001.json"
-    },
-    {
-      "rel": "root",
-      "href": "../catalog.json"
-    },
-    {
-      "rel": "parent",
-      "href": "catalog.json"
-    },
-    {
-      "rel": "source",
-      "href": "../imagery/znz001-image.json",
-      "td:assets": ["rgb"]
-    },
     {
       "rel": "collection",
       "href": "catalog.json"

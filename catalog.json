@@ -2,7 +2,7 @@
   "id": "stac4ml-demo",
   "stac_version": "0.6.0",
   "title": "ML input and output data catalog",
-  "description": "demo of ML training and model output data STAC catalogs",
+  "description": "demo of ML source imagery, training labels, and model output data STAC catalogs",
   "links": [
     {
       "rel": "self",
@@ -19,6 +19,11 @@
     {
       "rel": "child",
       "href": "outputs/catalog.json"
+    },
+    {
+      "rel": "child",
+      "href": "imagery/catalog.json"
     }
+     
   ]
 }
