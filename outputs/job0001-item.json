@@ -75,6 +75,11 @@
       "href": "catalog.json"
     },
     {
+      "rel": "source",
+      "href": "../imagery/znz029-image.json",
+      "td:assets": ["rgb"]
+    },
+    {
       "rel": "collection",
       "href": "catalog.json"
     }
