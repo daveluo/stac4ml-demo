@@ -1,0 +1,1 @@
+{"id": "znz_001", "stac_version": "0.6.0", "description": "znz_001 catalog", "links": [{"rel": "self", "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/collection_zanzibar/znz_001/catalog.json"}, {"rel": "root", "href": "../../catalog.json"}, {"rel": "parent", "href": "../catalog.json"}, {"rel": "item", "href": "znz_001_buildings.json"}]}
