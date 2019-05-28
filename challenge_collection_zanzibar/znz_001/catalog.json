@@ -1,0 +1,23 @@
+{
+  "id": "znz_001",
+  "stac_version": "0.6.0",
+  "description": "znz_001 catalog",
+  "links": [
+    {
+      "rel": "self",
+      "href": "catalog.json"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "item",
+      "href": "znz001_buildings.json"
+    }
+  ]
+}

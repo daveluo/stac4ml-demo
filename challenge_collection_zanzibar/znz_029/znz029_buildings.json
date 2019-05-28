@@ -1,5 +1,5 @@
 {
-  "id": "znz_029_buildings",
+  "id": "znz029_buildings",
   "type": "Feature",
   "geometry": {
     "type": "MultiPolygon",
@@ -48898,23 +48898,16 @@
   ],
   "properties": {
     "datetime": "2019-04-23T00:00:00Z",
-    "td:title": "znz 029 buildings",
-    "td:description": "buildings for znz 029",
-    "td:type": [
-      "segmentation",
-      "classification"
-    ],
-    "td:classes": [
-      "foundation",
-      "incomplete",
-      "complete"
-    ],
-    "collection": "zanzibar"
+    "td:title": "znz029 buildings",
+    "td:description": "here is a description",
+    "td:label_type": "segmentation",
+    "td:type": "segmentation",
+    "td:classes": "buildings"
   },
   "links": [
     {
       "rel": "self",
-      "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/collection_zanzibar/znz_029/znz_029_buildings.json"
+      "href": "znz029_buildings.json"
     },
     {
       "rel": "root",
@@ -48930,25 +48923,30 @@
     }
   ],
   "assets": {
-    "thumbnail": {
-      "title": "znz_029_thumbnail",
-      "href": "https://oin-hotosm.s3.amazonaws.com/5ae242fd0b093000130afd38/0/5ae242fd0b093000130afd39.png",
-      "type": "image/png"
-    },
     "raster": {
-      "title": "znz_029_cog",
+      "title": "znz029_cog",
       "href": "https://oin-hotosm.s3.amazonaws.com/5ae242fd0b093000130afd38/0/5ae242fd0b093000130afd39.tif",
       "type": "image/vnd.stac.geotiff; cloud-optimized=true"
     },
     "vector": {
-      "title": "znz_029_buildings",
-      "href": "https://www.dropbox.com/sh/ct3s1x2a846x3yl/AADHytc8fSCf3gna0wNAW3lZa/grid_029.geojson?dl=0",
+      "title": "znz029_buildings_vector",
+      "href": "https://www.dropbox.com/sh/ct3s1x2a846x3yl/AADHytc8fSCf3gna0wNAW3lZa/grid_029.geojson?dl=1",
       "type": "application/geo+json"
     },
+    "thumbnail": {
+      "title": "znz029_thumbnail",
+      "href": "https://oin-hotosm.s3.amazonaws.com/5ae242fd0b093000130afd38/0/5ae242fd0b093000130afd39.png",
+      "type": "image/png"
+    },
     "chips": {
+      "title": "znz029_chips",
       "href": "https://www.dropbox.com/sh/9ogls4r13zqfccl/AAD6P1f3_G93GgFMiYi9mWQsa?dl=0",
-      "title": "znz_029_chips",
-      "type": "image/jpeg"
+      "type": "application/dropbox"
+    },
+    "output_rst": {
+      "title": "model raster output",
+      "href": "https://www.dropbox.com/s/o8je994h9uvibpu/znz029-20190515-cog.tif?dl=1",
+      "type": "image/vnd.stac.geotiff; cloud-optimized=true"
     }
   }
 }

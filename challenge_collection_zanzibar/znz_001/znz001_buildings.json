@@ -1,5 +1,5 @@
 {
-  "id": "znz_001_buildings",
+  "id": "znz001_buildings",
   "type": "Feature",
   "geometry": {
     "type": "MultiPolygon",
@@ -167638,23 +167638,16 @@
   ],
   "properties": {
     "datetime": "2019-04-23T00:00:00Z",
-    "td:title": "znz 001 buildings",
-    "td:description": "buildings for znz 001",
-    "td:type": [
-      "segmentation",
-      "classification"
-    ],
-    "td:classes": [
-      "foundation",
-      "incomplete",
-      "complete"
-    ],
-    "collection": "zanzibar"
+    "td:title": "znz001 buildings",
+    "td:description": "here is a description",
+    "td:label_type": "segmentation",
+    "td:type": "segmentation",
+    "td:classes": "buildings"
   },
   "links": [
     {
       "rel": "self",
-      "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/collection_zanzibar/znz_001/znz_001_buildings.json"
+      "href": "znz001_buildings.json"
     },
     {
       "rel": "root",
@@ -167670,25 +167663,15 @@
     }
   ],
   "assets": {
-    "thumbnail": {
-      "title": "znz_001_thumbnail",
-      "href": "https://oin-hotosm.s3.amazonaws.com/5b1009f22b6a08001185f214/0/5b1009f22b6a08001185f215.png",
-      "type": "image/png"
-    },
     "raster": {
-      "title": "znz_001_cog",
+      "title": "znz001_cog",
       "href": "https://oin-hotosm.s3.amazonaws.com/5afeda152b6a08001185f11a/0/5afeda152b6a08001185f11b.tif",
       "type": "image/vnd.stac.geotiff; cloud-optimized=true"
     },
     "vector": {
-      "title": "znz_001_buildings",
+      "title": "znz001_buildings_vector",
       "href": "https://www.dropbox.com/sh/ct3s1x2a846x3yl/AAARCAOqhcRdoU7ULOb9GJl9a/grid_001.geojson?dl=1",
       "type": "application/geo+json"
-    },
-    "chips": {
-      "href": "https://www.dropbox.com/sh/e4gskvq9u8zi90k/AABTUvGGlQ9iGm3uOKqbYZa_a?dl=0",
-      "title": "znz_001_chips",
-      "type": "image/jpeg"
     }
   }
 }

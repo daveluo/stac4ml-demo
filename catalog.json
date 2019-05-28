@@ -1,1 +1,20 @@
-{"stac_version": "0.6.2", "id": "stac4ml_catalog", "title": "stac4ml demo", "description": "ML training data in the STAC format", "links": [{"rel": "self", "href": "https://raw.githubusercontent.com/daveluo/stac4ml-demo/master/catalog.json"}, {"rel": "root", "href": "catalog.json"}, {"rel": "child", "href": "collection_zanzibar/catalog.json"}]}
+{
+  "stac_version": "0.6.2",
+  "id": "openml_data_demo",
+  "title": "stac4ml demo",
+  "description": "ML training data in the STAC format",
+  "links": [
+    {
+      "rel": "self",
+      "href": "catalog.json"
+    },
+    {
+      "rel": "root",
+      "href": "catalog.json"
+    },
+    {
+      "rel": "child",
+      "href": "challenge_collection_zanzibar/catalog.json"
+    }
+  ]
+}
