@@ -1,8 +1,10 @@
 # stac4ml-demo
-a small demo of STAC for machine learning inputs and outputs
+a demo of STAC for labeled data for machine learning and gallery of samples from various geoML datasets
 
-6/13: Updated with new samples from different ML datasets and organized per latest [label extension proposal](https://github.com/radiantearth/stac-spec/tree/extension/training_data/extensions/label)
+6/24: Updated to latest Label spec decisions, cleaned up some descriptions and file organization, new browser url 
+
+6/13: Updated with new samples from different datasets and organized per latest [label extension proposal](https://github.com/radiantearth/stac-spec/tree/dev/extensions/label)
 
 [STAC browser](https://github.com/radiantearth/stac-browser) for this catalog deployed here for the moment: 
 
-https://zen-turing-2069dc.netlify.com/?t=catalogs
+https://geoml-samples.netlify.com
