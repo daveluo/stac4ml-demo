@@ -1,6 +1,8 @@
 # stac4ml-demo
 a demo of STAC for labeled data for machine learning and gallery of samples from various geoML datasets
 
+7/11: Added more samples for spacenet-roads and khartoum AOI for spacenet-buildings
+
 7/8: Added Count Object per class for zanzibar, xview, spacenet roads. Fixed zanzibar label property keys. Added label legend links.
 
 7/3: Added samples from DIUx's xView 1.0 (60-class object detection bbox vector labels) and Copernicus' CORINE land cover segmentation (44-class raster segmentation labels)
